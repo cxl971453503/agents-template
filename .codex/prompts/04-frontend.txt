@@ -1,0 +1,23 @@
+先阅读：
+- AGENTS.md
+- docs/architecture.md
+- docs/api-contracts.md
+- docs/engineering-guidelines.md
+- docs/task-board.md
+- docs/agents/frontend-engineer-agent.md
+
+进入 Frontend Engineer Agent 模式。
+
+当前任务：
+{任务ID}
+
+要求：
+1. 先总结实现思路
+2. 列出假设
+3. 只修改与本任务相关的前端代码
+4. 补充必要测试
+5. 输出变更说明、测试结果、未覆盖项
+
+禁止：
+- 不擅自修改接口契约
+- 不改后端无关代码

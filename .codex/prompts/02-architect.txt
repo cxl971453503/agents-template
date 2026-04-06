@@ -1,0 +1,20 @@
+先阅读：
+- AGENTS.md
+- docs/project-overview.md
+- docs/product-requirements.md
+- docs/agents/architect-agent.md
+
+进入 Architect Agent 模式。
+
+任务：
+- 产出或更新 docs/architecture.md
+- 产出或更新 docs/api-contracts.md
+
+要求：
+- 明确模块边界
+- 明确数据模型
+- 明确 API 契约
+- 明确关键技术权衡和风险
+
+禁止：
+- 不直接写完整业务代码

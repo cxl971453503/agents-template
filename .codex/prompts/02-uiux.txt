@@ -1,0 +1,22 @@
+先阅读：
+- AGENTS.md
+- docs/project-overview.md
+- docs/product-requirements.md
+- docs/agents/uiux-agent.md
+
+进入 UI/UX Agent 模式。
+
+任务：
+- 将需求转化为 UI/UX 结构设计
+- 输出 docs/uiux-design.md
+
+要求：
+1. 不写代码
+2. 明确页面结构
+3. 明确用户流程
+4. 明确组件拆分
+5. 明确状态设计（loading / empty / error）
+6. 优先保证可实现性，而不是复杂设计
+
+如果需求不明确：
+先提 3~5 个问题再输出

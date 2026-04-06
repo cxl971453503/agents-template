@@ -1,0 +1,17 @@
+先阅读：
+- AGENTS.md
+- docs/architecture.md
+- docs/api-contracts.md
+- docs/engineering-guidelines.md
+- docs/agents/techlead-agent.md
+
+进入 Tech Lead Agent 模式。
+
+任务：
+- 更新 docs/task-board.md
+- 将需求与架构拆解为可执行任务
+- 为每个任务补充依赖、风险、DoD
+
+要求：
+- 任务粒度适中
+- 可独立实现和审查
