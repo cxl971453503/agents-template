@@ -1,36 +1,36 @@
-# Project Discovery Notes
+# 项目发现记录
 
-## Current Idea
+## 当前想法
 （当前项目想法，允许不完整）
 
-## Problem to Solve
+## 要解决的问题
 （这个项目想解决什么问题）
 
-## Target Users
+## 目标用户
 （目标用户是谁）
 
-## Product Shape
+## 产品形态
 - [ ] 纯前端工具
 - [ ] 前端 + 本地存储
 - [ ] 前后端 Web 应用
 - [ ] 不确定
 
-## MVP Direction (Draft)
+## MVP 方向（草稿）
 （当前推测的最小可用版本）
 
-## Non-goals (Draft)
+## 非目标范围（草稿）
 （当前明确不做的）
 
-## Constraints
+## 约束条件
 - 时间：
 - 技术偏好：
 - 团队规模：
 
-## Key Decisions
+## 关键决策
 （访谈中已经确定的关键决策）
 
-## Open Questions
+## 待确认问题
 （还没想清楚的关键问题）
 
-## Last Interview Summary
+## 最近一轮访谈总结
 （最近一轮问答总结）
