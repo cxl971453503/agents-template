@@ -82,6 +82,7 @@ Agent 的核心职责：
   - 组件拆分建议
   - 状态设计
   - 关键交互规则
+- 已完成 `docs/uiux-review-checklist.md` 的关键检查，确认主体验未被侧边栏或次级容器错误吞掉
 - 设计结果已足够支持架构设计和前端实现
 - 不存在会阻塞开发的高优先级交互歧义
 
@@ -126,6 +127,7 @@ Agent 的核心职责：
 - `docs/document-sync-matrix.md` 已存在
 - `docs/task-board.md` 已存在
 - 若涉及前端交互，`docs/uiux-design.md` 已存在或当前任务不依赖它
+- 若当前产品为游戏、模拟器或信息密集型系统，应额外参考 `docs/uiux-review-checklist.md`
 - 当前任务已有明确 Task ID、目标、输入、输出和完成定义
 
 退出条件：
@@ -141,6 +143,7 @@ Agent 的核心职责：
 - `docs/test-strategy.md` 已存在
 - `docs/document-sync-matrix.md` 已存在
 - `docs/implementation-review-checklist.md` 已存在
+- 若涉及前端布局或交互，应额外参考 `docs/uiux-review-checklist.md`
 - 可对照架构、接口契约、工程规范和任务定义进行审查
 
 退出条件：
@@ -262,6 +265,8 @@ Agent 的核心职责：
    - 信息架构
    - 组件拆分
    - 状态设计（loading / empty / error）
+   - 主视区与次级容器边界定义
+   - 哪些信息必须默认可见，哪些内容才允许进入侧边栏 / 抽屉 / 弹窗
    不负责具体代码实现。
 
 4. 架构阶段只允许输出技术方案，不允许直接跳到完整实现。
