@@ -252,6 +252,7 @@ Agent 的核心职责：
 ## 全局规则
 1. 先阅读 `docs/project-overview.md` 理解项目目标、范围和约束。
    相关术语与命名优先参考：`docs/terminology-and-naming.md`
+   如需引入外部 Skill，可参考：`docs/optional-skills.md`
 
 2. 需求阶段只允许输出产品文档，不允许直接写业务代码。
 
