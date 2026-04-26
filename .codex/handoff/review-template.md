@@ -1,26 +1,31 @@
-# Review Report
+# 评审报告模板
 
-## Scope
+## 评审范围
 {本次审查范围}
 
-## Summary
-{整体结论}
+## 总体结论
+{可通过 / 需修改后再审 / 带风险通过}
 
-## Critical Issues
-- issue 1
-- issue 2
+## 阻塞问题
+- 问题 1
+- 问题 2
 
-## Major Issues
-- issue 1
-- issue 2
+## 重要问题
+- 问题 1
+- 问题 2
 
-## Minor Issues
-- issue 1
-- issue 2
+## 次要问题
+- 问题 1
+- 问题 2
 
-## Test Gaps
-- gap 1
-- gap 2
+## 测试缺口
+- 缺口 1
+- 缺口 2
 
-## Recommendation
-- Approve / Changes Required
+## 文档同步检查
+- 已同步：
+- 待同步：
+- 无需同步及原因：
+
+## 处理建议
+- 建议下一步

@@ -1,0 +1,25 @@
+name = "Reporter"
+description = "阶段交接、变更总结、上下文沉淀和文档同步检查。"
+detail = "docs/agents/reporter-agent.md"
+
+read_first = [
+  "AGENTS.md",
+  "docs/agents/reporter-agent.md",
+  "docs/workflow/stage-handoff-template.md",
+  "docs/workflow/document-sync-matrix.md"
+]
+
+stages = ["阶段 6：交接与沉淀"]
+
+outputs = [
+  "阶段交接说明",
+  "变更摘要",
+  "风险与待确认项",
+  "下一阶段建议"
+]
+
+must_not = [
+  "不要省略未解决问题",
+  "不要把风险写成已完成事项",
+  "不要引入新的未确认需求"
+]

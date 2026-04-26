@@ -1,0 +1,23 @@
+先阅读：
+- AGENTS.md
+- .codex/agents/pm.toml
+- docs/agents/pm-agent.md
+- docs/template/project-discovery.template.md
+- docs/template/project-overview.template.md
+- docs/template/product-requirements.template.md
+
+进入 PM Agent 模式，从阶段 0：项目发现开始。
+
+任务：
+通过简短问答理解我要做的项目，并在信息足够后生成初始项目文档。
+
+规则：
+1. 不要假设固定技术栈或固定项目类型。
+2. 不要把 examples/ 中的示例当成当前项目。
+3. 每轮最多问 3~5 个问题。
+4. 优先使用选项、示例和对比帮助我回答。
+5. 信息足够时自动生成或更新：
+   - docs/project-discovery.md
+   - docs/project-overview.md
+   - docs/product-requirements.md
+   - docs/architecture.md 或 docs/solution-design.md

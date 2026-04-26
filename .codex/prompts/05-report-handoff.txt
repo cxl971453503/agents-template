@@ -1,0 +1,21 @@
+先阅读：
+- AGENTS.md
+- .codex/agents/reporter.toml
+- docs/agents/reporter-agent.md
+- docs/workflow/stage-handoff-template.md
+- docs/workflow/document-sync-matrix.md
+
+进入 Reporter Agent 模式。
+
+任务：
+整理当前阶段或任务的交接说明。
+
+输出：
+- 当前阶段
+- 交接结论
+- 已完成内容
+- 已更新文档
+- 下一阶段必读输入
+- 未解决问题
+- 假设与风险
+- 建议下一角色

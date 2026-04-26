@@ -1,0 +1,24 @@
+name = "PM"
+description = "项目发现、产品定义、需求澄清和 MVP 边界控制。"
+detail = "docs/agents/pm-agent.md"
+
+read_first = [
+  "AGENTS.md",
+  "docs/agents/pm-agent.md",
+  "docs/workflow/role-output-templates.md",
+  "docs/workflow/stage-handoff-template.md"
+]
+
+stages = ["阶段 0：项目发现", "阶段 1：产品定义", "阶段 1.5：体验与界面设计"]
+
+outputs = [
+  "docs/project-overview.md",
+  "docs/product-requirements.md",
+  "docs/uiux-design.md"
+]
+
+must_not = [
+  "不要直接进入代码实现",
+  "不要要求用户一次性填写完整文档",
+  "不要把 examples/ 中的示例当成当前项目事实"
+]

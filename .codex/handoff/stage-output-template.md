@@ -1,34 +1,22 @@
-# Stage Output
+# 阶段输出模板
 
-## Role
-{PM / Architect / Tech Lead / Frontend Engineer / Backend Engineer / Reviewer}
+## 角色
+{PM / Explorer / Builder / Tester / Reporter}
 
-## Stage
-{Requirement / Architecture / Planning / Implementation / Review}
+## 阶段
+{项目发现 / 产品定义 / 体验与界面设计 / 方案设计 / 任务规划 / 构建实现 / 测试与评审 / 交接与沉淀}
 
-## Inputs Read
-- file1
-- file2
+## 已读取输入
+- {文档或文件}
 
-## Assumptions
-- assumption 1
-- assumption 2
+## 假设
+- {当前采用的最小可行假设}
 
-## Key Decisions
-- decision 1
-- decision 2
+## 输出
+- {本阶段或本任务产出}
 
-## Deliverables
-- output 1
-- output 2
+## 风险
+- {缺失信息、冲突点或潜在风险}
 
-## Risks
-- risk 1
-- risk 2
-
-## Open Questions
-- question 1
-- question 2
-
-## Next Step
-{下一步做什么}
+## 下一步
+- {建议下一阶段或下一角色}

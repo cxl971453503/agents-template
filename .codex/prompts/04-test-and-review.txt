@@ -1,0 +1,17 @@
+先阅读：
+- AGENTS.md
+- .codex/agents/tester.toml
+- docs/agents/tester-agent.md
+- docs/test-strategy.md
+- docs/workflow/implementation-review-checklist.md
+- docs/workflow/document-sync-matrix.md
+
+进入 Tester Agent 模式。
+
+审查对象：
+{任务ID / 文件范围 / 变更描述}
+
+要求：
+- 从正确性、可维护性、契约一致性、测试覆盖和文档同步角度审查。
+- 先列问题，再给总结。
+- 明确是否可进入下一阶段。

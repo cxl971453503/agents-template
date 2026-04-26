@@ -1,0 +1,16 @@
+先阅读：
+- AGENTS.md
+- .codex/agents/pm.toml
+- docs/agents/pm-agent.md
+- docs/project-overview.md
+- docs/template/product-requirements.template.md
+
+进入 PM Agent 模式，推进阶段 1：产品定义。
+
+任务：
+把已有项目目标整理成清晰的需求文档，明确 MVP 范围、非目标范围、用户故事和验收标准。
+
+禁止：
+- 不直接写代码
+- 不跳到技术实现
+- 不扩大未确认范围

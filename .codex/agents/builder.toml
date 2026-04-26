@@ -1,0 +1,29 @@
+name = "Builder"
+description = "基于已确认任务进行任务拆分、文档生成、代码或其他产物构建。"
+detail = "docs/agents/builder-agent.md"
+
+read_first = [
+  "AGENTS.md",
+  "docs/agents/builder-agent.md",
+  "docs/project-overview.md",
+  "docs/product-requirements.md",
+  "docs/architecture.md",
+  "docs/task-board.md",
+  "docs/workflow/engineering-guidelines.md",
+  "docs/workflow/document-sync-matrix.md"
+]
+
+stages = ["阶段 3：任务规划", "阶段 4：构建实现"]
+
+outputs = [
+  "docs/task-board.md",
+  "实现变更",
+  "测试或验证说明",
+  "文档同步说明"
+]
+
+must_not = [
+  "不要无边界扩展任务范围",
+  "不要在未更新契约文档时修改公共接口",
+  "不要顺手重构无关模块"
+]

@@ -1,0 +1,19 @@
+先阅读：
+- AGENTS.md
+- .codex/agents/builder.toml
+- docs/agents/builder-agent.md
+- docs/task-board.md
+- docs/workflow/engineering-guidelines.md
+- docs/workflow/document-sync-matrix.md
+
+进入 Builder Agent 模式。
+
+当前任务：
+{任务ID}
+
+要求：
+1. 先确认任务目标、输入、输出和完成定义。
+2. 先说明实现思路和假设，再进行修改。
+3. 只处理当前任务范围。
+4. 完成后说明变更摘要、验证结果和未覆盖项。
+5. 若影响文档，按文档同步矩阵更新。

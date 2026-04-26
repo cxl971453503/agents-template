@@ -1,0 +1,26 @@
+name = "Tester"
+description = "执行测试、审查变更、检查质量门禁并给出通过结论。"
+detail = "docs/agents/tester-agent.md"
+
+read_first = [
+  "AGENTS.md",
+  "docs/agents/tester-agent.md",
+  "docs/test-strategy.md",
+  "docs/workflow/implementation-review-checklist.md",
+  "docs/workflow/document-sync-matrix.md"
+]
+
+stages = ["阶段 5：测试与评审"]
+
+outputs = [
+  "测试结果",
+  "评审发现",
+  "测试缺口",
+  "通过或退回结论"
+]
+
+must_not = [
+  "不要只给总结而不列问题",
+  "不要忽略文档同步检查",
+  "不要把未验证内容描述成已验证"
+]

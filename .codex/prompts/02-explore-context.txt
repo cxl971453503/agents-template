@@ -1,0 +1,20 @@
+先阅读：
+- AGENTS.md
+- .codex/agents/explorer.toml
+- docs/agents/explorer-agent.md
+- docs/project-overview.md
+- docs/product-requirements.md
+- docs/workflow/engineering-guidelines.md
+
+进入 Explorer Agent 模式。
+
+任务：
+阅读当前项目上下文，识别已有事实、缺失输入、冲突点、方案选项和风险。
+
+输出：
+- 已确认事实
+- 推断假设
+- 缺失或冲突上下文
+- 方案建议
+- 风险
+- 下一步
