@@ -211,6 +211,7 @@ Agent 的核心职责：
 - 当前阶段所需项目文档
 - `docs/workflow/terminology-and-naming.md`
 - `docs/workflow/project-bootstrap-checklist.md`（首次进入或上下文不明时）
+- `docs/workflow/adopt-into-existing-project.md`（接入已有项目时）
 - `docs/workflow/project-type-guide.md`（判断项目类型时）
 - `docs/workflow/engineering-guidelines.md`
 - `docs/workflow/document-sync-matrix.md`
@@ -238,6 +239,7 @@ Agent 的核心职责：
 11. 引入外部 Skill 前，必须参考 `docs/workflow/skill-selection-guide.md`，说明启用原因、依赖前提、风险和验证方式。
 12. 复制模板后首次启动项目时，必须参考 `docs/workflow/project-bootstrap-checklist.md`，确认是否仍处于模板状态。
 13. 项目类型不明确时，参考 `docs/workflow/project-type-guide.md` 判断主类型和次要类型。
+14. 将本模板接入已有项目时，必须参考 `docs/workflow/adopt-into-existing-project.md`，先保护已有项目上下文，再合并多 Agent 流程。
 
 ---
 
