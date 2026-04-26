@@ -212,6 +212,7 @@ Agent 的核心职责：
 - `docs/workflow/terminology-and-naming.md`
 - `docs/workflow/engineering-guidelines.md`
 - `docs/workflow/document-sync-matrix.md`
+- `docs/workflow/skill-selection-guide.md`（涉及外部 Skill 时）
 
 如果文档不存在、不完整或彼此冲突，应先：
 1. 指出缺失或冲突的上下文
@@ -232,6 +233,7 @@ Agent 的核心职责：
 8. 默认优先可维护性、简洁性、复用现有结构和小步修改。
 9. 除非任务明确要求，否则不要重构整个项目、替换核心技术栈、引入重基础设施或修改公共契约。
 10. 所有 Markdown、TOML 和代码文件默认使用 UTF-8 编码。
+11. 引入外部 Skill 前，必须参考 `docs/workflow/skill-selection-guide.md`，说明启用原因、依赖前提、风险和验证方式。
 
 ---
 

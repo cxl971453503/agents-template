@@ -8,6 +8,7 @@
 ## 使用原则
 - 默认不将强平台绑定 Skill 纳入基础工作流。
 - 仅当项目场景、工具链和输入条件都满足时，再按需启用。
+- 具体启用判断优先参考：`docs/workflow/skill-selection-guide.md`。
 - 引入前应先说明：
   - Skill 解决什么问题
   - 依赖哪些外部工具或 MCP
@@ -211,3 +212,9 @@ npx skills add https://github.com/openai/skills --skill imagegen
   - 可考虑纳入长期基线
 - 强平台绑定、强场景绑定的 Skill：
   - 建议记录在本文件中，按需使用
+
+## 与工作流的关系
+- `docs/optional-skills.md` 负责记录“有哪些 Skill 值得关注”。
+- `docs/workflow/skill-selection-guide.md` 负责判断“什么时候该用、由谁判断、如何验证”。
+- 如果新增 Skill 只是记录候选能力，更新本文档即可。
+- 如果新增 Skill 会改变默认阶段规则、构建方式或评审标准，应同步更新 `docs/workflow/skill-selection-guide.md`。
