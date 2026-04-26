@@ -42,6 +42,8 @@ examples/
 - `examples/` 只保存示例，不代表当前项目。
 - 项目专属文档应在用户说明项目方向后生成到 `docs/`。
 - `docs/template/` 中的文件只提供结构，不是当前项目事实。
+- 第一次启动新项目时，优先参考 `docs/workflow/project-bootstrap-checklist.md`。
+- 项目类型不明确时，参考 `docs/workflow/project-type-guide.md`。
 - 默认先澄清再实现，不在需求不清时直接写代码。
 - 所有 Markdown、TOML 和代码文件默认使用 UTF-8 编码。
 
