@@ -55,6 +55,7 @@ examples/
 | 是否已有编码规范或贡献规范 | 优先保留项目专属规范 |
 | 是否已有 CI / 测试命令 | 写入工程规范或测试策略 |
 | 是否已有任务管理方式 | 不强行替换，必要时建立映射 |
+| 是否已有 `CHANGELOG.md` / `changelog.md` | 保留原路径和格式，不用模板覆盖 |
 
 ## 推荐接入步骤
 ### 1. 复制非冲突文件
@@ -106,8 +107,25 @@ examples/
 | API 文档、OpenAPI、接口说明 | `docs/api-contracts.md` |
 | 测试计划、QA 文档 | `docs/test-strategy.md` |
 | 任务列表、Roadmap | `docs/task-board.md` |
+| 变更日志、发布记录 | `CHANGELOG.md` / `changelog.md` / 项目既有路径 |
 
 如果目标项目已有不同命名，不必强制改名。可以在 `AGENTS.md` 中说明映射关系。
+
+### 5.1 记录 changelog 路径
+如果目标项目已有变更日志，应记录实际路径，例如：
+
+```md
+变更日志路径：
+- 本项目使用：changelog.md
+```
+
+接入模板时不要新增另一个 `CHANGELOG.md`，也不要把既有 `changelog.md` 改名。
+
+Reporter 在阶段 6 交接时应检查：
+- 本次是否包含用户可见变更
+- 是否需要追加 changelog 条目
+- 若需要，使用目标项目既有格式
+- 若不需要，说明原因
 
 ### 5. 首次接入扫描
 接入后，先让 Codex 进入 Explorer 模式，而不是 PM 模式。
@@ -160,6 +178,7 @@ Explorer 输出应包含：
 - 用模板 README 覆盖项目 README。
 - 把 `examples/` 复制进真实项目并让 Agent 误读。
 - 目标项目已有文档，却强行重建一套重复文档。
+- 目标项目已有 `changelog.md`，却新增另一个 `CHANGELOG.md`。
 - 还没扫描项目，就直接进入阶段 0 重新定义项目。
 - 未记录已有文档和模板文档的映射关系。
 
@@ -173,5 +192,6 @@ Explorer 输出应包含：
 | 已明确 `examples/` 不参与当前项目 |  |
 | 已完成 Explorer 首次扫描 |  |
 | 已记录文档映射关系 |  |
+| 已记录 changelog 路径或确认暂无变更日志 |  |
 | 已列出缺失文档和风险 |  |
 | 已输出接入交接说明 |  |
