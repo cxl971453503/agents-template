@@ -1,11 +1,13 @@
 # 可选 Skills
 
 ## 目标
+
 - 记录适合按需引入、但不建议默认进入基础模板的外部 Skill。
 - 帮助项目在需要特定能力时快速判断是否值得接入。
 - 避免基础模板因强工具绑定而变得过重。
 
 ## 使用原则
+
 - 默认不将强平台绑定 Skill 纳入基础工作流。
 - 仅当项目场景、工具链和输入条件都满足时，再按需启用。
 - 具体启用判断优先参考：`docs/workflow/skill-selection-guide.md`。
@@ -17,11 +19,14 @@
 ## 已收录 Skills
 
 ### Stitch 设计链路
+
 适用于：
+
 - 使用 Stitch 做设计生成或设计驱动前端开发的项目
 - 希望把设计信息、设计提示词、页面生成和后续集成串成一条流程的项目
 
 ### design-md
+
 - 来源：
   - [design-md](https://skills.sh/google-labs-code/stitch-skills/design-md)
 - 定位：
@@ -42,11 +47,13 @@
   - 只对部分设计驱动项目有价值
   - 对不使用 Stitch 的项目会增加理解与维护负担
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/google-labs-code/stitch-skills --skill design-md
 ```
 
 ### enhance-prompt
+
 - 来源：
   - [enhance-prompt](https://skills.sh/google-labs-code/stitch-skills/enhance-prompt)
 - 定位：
@@ -65,11 +72,13 @@ npx skills add https://github.com/google-labs-code/stitch-skills --skill design-
   - 对使用 Stitch 的项目帮助很大
   - 但对不走设计生成工作流的项目几乎无价值
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/google-labs-code/stitch-skills --skill enhance-prompt
 ```
 
 ### react:components
+
 - 来源：
   - [react:components](https://skills.sh/google-labs-code/stitch-skills/react%3Acomponents)
 - 定位：
@@ -89,11 +98,13 @@ npx skills add https://github.com/google-labs-code/stitch-skills --skill enhance
   - 强依赖 React 与 Stitch
   - 对普通文档型或后端型项目无直接价值
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/google-labs-code/stitch-skills --skill react:components
 ```
 
 ### stitch-loop
+
 - 来源：
   - [stitch-loop](https://skills.sh/google-labs-code/stitch-skills/stitch-loop)
 - 定位：
@@ -114,11 +125,13 @@ npx skills add https://github.com/google-labs-code/stitch-skills --skill react:c
   - 工作流较重，依赖条件多
   - 更适合成熟的 Stitch 网站生成链路，而不是通用模板
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/google-labs-code/stitch-skills --skill stitch-loop
 ```
 
 ### remotion
+
 - 来源：
   - [remotion](https://skills.sh/google-labs-code/stitch-skills/remotion)
 - 定位：
@@ -137,16 +150,20 @@ npx skills add https://github.com/google-labs-code/stitch-skills --skill stitch-
   - 场景明确但不高频
   - 更偏展示资产生产，不属于大多数项目的核心开发流程
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/google-labs-code/stitch-skills --skill remotion
 ```
 
 ### UI 组件工程化
+
 适用于：
+
 - 需要把界面实现标准化、组件化的前端项目
 - 已明确使用 React + Tailwind 等现代前端栈的项目
 
 ### shadcn-ui
+
 - 来源：
   - [shadcn-ui](https://skills.sh/google-labs-code/stitch-skills/shadcn-ui)
 - 定位：
@@ -166,16 +183,20 @@ npx skills add https://github.com/google-labs-code/stitch-skills --skill remotio
   - 价值很高，但技术栈限定明显
   - 对非 React / Tailwind 项目不适用
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/google-labs-code/stitch-skills --skill shadcn-ui
 ```
 
 ### 通用创意资产
+
 适用于：
+
 - 需要生成视觉素材、插图、封面图、Mockup 或产品图的项目
 - 不一定依赖 Stitch，但需要更强的图像产出能力
 
 ### imagegen
+
 - 来源：
   - [imagegen](https://skills.sh/openai/skills/imagegen)
 - 定位：
@@ -194,11 +215,13 @@ npx skills add https://github.com/google-labs-code/stitch-skills --skill shadcn-
   - 通用性高，但并非每个项目都需要图片生成
   - 放入 optional 比放入 baseline 更合适
 - 安装方式：
+
 ```bash
 npx skills add https://github.com/openai/skills --skill imagegen
 ```
 
 ## 引入判断清单
+
 在决定是否引入某个外部 Skill 前，至少检查以下问题：
 
 1. 它是否服务于当前项目的真实高频需求
@@ -208,13 +231,15 @@ npx skills add https://github.com/openai/skills --skill imagegen
 5. 引入后是否需要新增文档、流程说明或维护成本
 
 ## 推荐策略
+
 - 通用、高频、低耦合的 Skill：
   - 可考虑纳入长期基线
 - 强平台绑定、强场景绑定的 Skill：
   - 建议记录在本文件中，按需使用
 
 ## 与工作流的关系
-- `docs/optional-skills.md` 负责记录“有哪些 Skill 值得关注”。
+
+- `docs/workflow/advanced/optional-skills.md` 负责记录“有哪些 Skill 值得关注”。
 - `docs/workflow/skill-selection-guide.md` 负责判断“什么时候该用、由谁判断、如何验证”。
 - 如果新增 Skill 只是记录候选能力，更新本文档即可。
 - 如果新增 Skill 会改变默认阶段规则、构建方式或评审标准，应同步更新 `docs/workflow/skill-selection-guide.md`。

@@ -33,7 +33,9 @@ docs/workflow/adopt-into-existing-project.md
 docs/
   agents/      # 角色详细说明
   template/    # 项目文档模板
+    examples/  # 模板填充示例（填写后应该长什么样）
   workflow/    # 阶段、交接、工程、评审规则
+    advanced/  # 扩展能力（记忆架构、可观测性、评估框架）
 
 examples/
   acme-tasks/  # 示例项目，不是当前项目上下文
