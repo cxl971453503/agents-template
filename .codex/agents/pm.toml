@@ -20,7 +20,7 @@ outputs = [
 must_not = [
   "不要直接进入代码实现",
   "不要要求用户一次性填写完整文档",
-  "不要把 examples/ 中的示例当成当前项目事实"
+  "不要把 docs/template/ 中的模板占位内容当成当前项目事实"
 ]
 
 [self_check]

@@ -42,13 +42,9 @@ README.md
 docs/decisions/
 ```
 
-### 通常不建议复制
+### 模板内容处理
 
-```text
-examples/
-```
-
-`examples/` 只用于模板仓库说明，不应进入大多数真实项目。若目标项目需要参考示例，可以单独复制到临时目录，并在完成后删除。
+本模板只随结构模板分发。`docs/template/` 仅用于提供项目文档结构，接入已有项目时可以复制，但不得把模板占位内容作为目标项目事实来源。
 
 ## 接入前检查
 
@@ -207,7 +203,7 @@ Explorer 输出应包含：
 
 - 直接覆盖目标项目 `AGENTS.md`。
 - 用模板 README 覆盖项目 README。
-- 把 `examples/` 复制进真实项目并让 Agent 误读。
+- 把模板占位内容当成真实项目需求并让 Agent 误读。
 - 目标项目已有文档，却强行重建一套重复文档。
 - 目标项目已有 `changelog.md`，却新增另一个 `CHANGELOG.md`。
 - 还没扫描项目，就直接进入阶段 0 重新定义项目。
@@ -221,7 +217,7 @@ Explorer 输出应包含：
 | 已合并或保留目标项目 AGENTS.md                            |          |
 | 已复制 `.codex/agents/`                                   |          |
 | 已复制 `docs/agents/`、`docs/template/`、`docs/workflow/` |          |
-| 已明确 `examples/` 不参与当前项目                         |          |
+| 已明确模板占位内容不参与当前项目                          |          |
 | 已完成 Explorer 首次扫描                                  |          |
 | 已记录文档映射关系                                        |          |
 | 已记录 changelog 路径或确认暂无变更日志                   |          |

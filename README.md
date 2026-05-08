@@ -33,12 +33,8 @@ docs/workflow/adopt-into-existing-project.md
 docs/
   agents/      # 角色详细说明
   template/    # 项目文档模板
-    examples/  # 模板填充示例（填写后应该长什么样）
   workflow/    # 阶段、交接、工程、评审规则
     advanced/  # 扩展能力（记忆架构、可观测性、评估框架）
-
-examples/
-  acme-tasks/  # 示例项目，不是当前项目上下文
 ```
 
 ## 五个通用角色
@@ -51,7 +47,6 @@ examples/
 
 ## 重要约定
 
-- `examples/` 只保存示例，不代表当前项目。
 - 项目专属文档应在用户说明项目方向后生成到 `docs/`。
 - `docs/template/` 中的文件只提供结构，不是当前项目事实。
 - 第一次启动新项目时，优先参考 `docs/workflow/project-bootstrap-checklist.md`。
